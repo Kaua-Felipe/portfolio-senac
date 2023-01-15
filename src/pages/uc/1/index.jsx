@@ -1,5 +1,7 @@
 import Link from "next/link"
+
 import Activity from "../../../components/Activity"
+
 import { Container } from "./styles"
 
 export default function Uc1() {
