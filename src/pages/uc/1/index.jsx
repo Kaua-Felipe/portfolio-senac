@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import Activity from "../../../components/Activity"
 
-import { Container } from "./styles"
+import { Container } from "../../../styles/pages/1"
 
 export default function Uc1() {
     return (
