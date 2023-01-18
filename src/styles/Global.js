@@ -11,4 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #050505;
     }
+    button {
+        all: unset;
+    }
 `
