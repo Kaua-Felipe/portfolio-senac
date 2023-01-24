@@ -2,19 +2,12 @@ import styled from "styled-components"
 
 export const Container = styled.section`
     height: 300px;
-    margin: 30px 0;
-    /* background-color: gray; */
+    margin: 20px 0;
     display: flex;
     flex-direction: ${props => !props.reverse || "row-reverse"};
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-
-    /* div {
-        width: 1px;
-        height: 100px;
-        background-color: white;
-    } */
 `
 export const Date = styled.div`
 
@@ -31,7 +24,6 @@ export const Content = styled.div`
     border-bottom-right-radius: ${props => props.reverse || "10px"};
     display: flex;
     justify-content: ${props => !props.reverse ? "flex-end" : "flex-start"};
-
 `
 export const ContainerButton = styled.div`
     display: flexbox;
@@ -39,7 +31,7 @@ export const ContainerButton = styled.div`
     /* background-color: blueviolet; */
     padding: 0 20px;
     
-    button {
+    a {
         /* background-color: rgba(0, 0, 0, .98); */
         color: white;
         border: 1px solid white;
@@ -47,7 +39,7 @@ export const ContainerButton = styled.div`
         transition: .3s;
         cursor: pointer;
         border-radius: 2px;
-
+        
         :hover {
             background-color: rgb(135, 66, 255, .2);
         }
