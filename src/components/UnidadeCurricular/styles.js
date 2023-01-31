@@ -11,6 +11,7 @@ export const ContainerUC = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
 `

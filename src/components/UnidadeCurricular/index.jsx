@@ -2,11 +2,11 @@ import UC from "../UC"
 import { Container, ContainerUC } from "./styles"
 
 export default function UnidadeCurricular() {
-    const qtdsUniCurriculares = [0, 1, 2, 3]
+    const qtdsUniCurriculares = [0, 1, 2, 3, 4]
 
     return (
         <Container>
-            <h2>Unidade Curricular</h2>
+            {/* <h2>Unidade Curricular</h2> */}
             
             <ContainerUC>
                 {qtdsUniCurriculares.map(uniCurricular => (

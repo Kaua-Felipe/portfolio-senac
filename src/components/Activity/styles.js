@@ -35,6 +35,19 @@ export const Infos = styled.div`
     padding: 40px;
 `
 export const Description = styled.div`
+    position: relative;
+
+    p {
+        text-shadow: 2px 2px 2px black;
+        height: 100px;
+    }
+`
+export const Shadow = styled.div`
+    background-image: linear-gradient(transparent, rgb(0, 0, 0, .1), rgb(0, 0, 0, .7), rgb(0, 0, 0, .99), black);
+    width: 100%;
+    height: 100px;
+    // z-index: 3;
+    position: absolute;
 `
 export const ContainerButton = styled.div`
     display: flex;

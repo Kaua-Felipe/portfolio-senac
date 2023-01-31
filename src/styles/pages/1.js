@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+    position: relative;
+
     header nav {
         width: 70%;
         margin: 30px auto 0;
